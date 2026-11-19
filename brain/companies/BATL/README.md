@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -489,6 +489,42 @@ sources:
   published_at: '2026-04-01'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1282648/000110465926112594/batl-20260930x8k.htm
+  title: 8-K 0001104659-26-112594
+  published_at: '2026-10-01'
+  retrieved_at: '2026-11-19T21:14:19.285287+00:00'
+  sha256: f33c3fa80a961af5d2a2fbf839878d07b6c98a7adec3e8da2a2e9206d3c16c83
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1282648/000110465926094946/batl-20260630x10q.htm
+  title: 10-Q 0001104659-26-094946
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-19T21:14:17.291322+00:00'
+  sha256: b624edc84533de9710cc9a2889326e3dce37a2d2ba0967d53fe5a77a5b7ea54b
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1282648/000110465926053021/batl-20260611xdef14a.htm
+  title: DEF 14A 0001104659-26-053021
+  published_at: '2026-04-30'
+  retrieved_at: '2026-11-19T21:14:15.397145+00:00'
+  sha256: 5ec2dce9a29473e90ecf3ad2f8a01929143ab6ed30f8f86468f6343c4d1d5294
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1282648/000110465926033373/batl-20251231x10k.htm
+  title: 10-K 0001104659-26-033373
+  published_at: '2026-03-23'
+  retrieved_at: '2026-11-19T21:14:12.343716+00:00'
+  sha256: 741dd895044c2f727448cdcb1fd4f412eb62820a8e0ee9641c1b72173bdc0d3a
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1282648/000110465921054560/tm2113727d2_8ka.htm
+  title: 8-K/A 0001104659-21-054560
+  published_at: '2021-04-23'
+  retrieved_at: '2026-11-19T21:14:09.810628+00:00'
+  sha256: 671bd8a708387a879df52209877c599193497273b658021d67190b0803e8b196
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1282648/000110465919055299/a19-20690_18ka.htm
+  title: 8-K/A 0001104659-19-055299
+  published_at: '2019-10-21'
+  retrieved_at: '2026-11-19T21:14:08.050773+00:00'
+  sha256: 741c485885abdf64dea76adc6a23456919fcb967bfe2115af0501f2774f7b82d
 issuer_classification:
   cik: 0001282648
   classification_status: reported_sic
@@ -534,13 +570,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1282648/000110465919055299/0001104659-19-055299-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0187a18b2f60378eafb4ffe97ddf82234e182da6a7d0785eae7a327c8935384e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -564,13 +610,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L370:
+
+> \| \| ● \| contractual limitations that affect our management’s discretion in managing our business, including covenants that, among other things, limit our ability to incur debt, make investments and pay cash dividends; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-12, L4271:
+
+> The Company has determined that it operates as one reportable segment which focuses on oil and natural gas acquisition, production, exploration and development. The Company evaluates performance based on consolidated net income or loss. The Company’s chief executive officer and chief operating officer together function as the Company’s chief operating decision maker (the “CODM”). The CODM evaluates and manages performance and resource allocation based on consolidated production and operating expenses. Significant expenses provided to the CODM for review consist of lease operating, workover and other, and gathering and other expenses. The Company’s significant segment expenses are derived from and can be found within the unaudited condensed consolidated statement of operations. The measure of segment assets for the Company’s single reportable segment is “Total assets” as reported on the unaudited condensed consolidated balance sheets. [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-03-23, L1600:
+
+> Any laws or regulations that may be adopted to restrict or reduce emissions of greenhouse gases could require us to incur additional operating costs, such as costs to purchase and operate emissions control systems or other compliance costs, and reduce demand for our products. [S70]
 
 ## Customers and end markets
 
@@ -582,17 +640,33 @@ SEC-reported SIC **1311**: Crude Petroleum & Natural Gas. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L7707:
+
+> Additionally, in periods of increasing commodity prices, we continue to be at risk to supply chain issues, including, but not limited to, labor shortages, pipe restrictions and potential delays in obtaining frac and/or drilling related equipment that could impact our business. During these periods, the costs and delivery times of rigs, equipment and supplies may also be substantially greater. The unavailability or high cost of drilling rigs and/or frac crews, pressure pumping equipment, tubulars and other supplies, and of qualified personnel can materially and adversely affect our operations and profitability. [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-23, L1554:
+
+> The oil and natural gas industry is highly competitive and we compete with a substantial number of other companies that have greater financial and other resources. Many of these companies explore for, produce and market oil and natural gas, as well as carry on refining operations and market the resultant products on a worldwide basis. The primary areas in which we encounter substantial competition are in locating and acquiring desirable leasehold acreage for our drilling and development operations, locating and acquiring attractive producing oil and natural gas properties, obtaining sufficient availability of drilling and completion equipment and services, obtaining purchasers, transporters and take-away capacity for the oil and natural gas we produce and hiring and retaining key employees. There is also competition between oil and natural gas producers and other industries producing energy and fuel. Furthermore, competitive conditions may be substantially affected by various forms of energy legislation and/or regulation considered from time to time by the government of the U.S. and the states in which our properties are located. It is not possible to predict the nature of any such legislation or regulation which may ultimately be adopted or its effects upon our future operations. Such laws and regulations may substantially increase the costs of exploring for, developing or … [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-23, L513:
+
+> \| \| ● \| Attain Growth Through Strategic Business Combinations. From time to time, we may pursue merger and acquisition opportunities to meet our strategic and financial targets, including the maintenance of a conservative leverage position. Selective business combinations provide opportunities to acquire high quality assets complementary to our acreage, expand our drilling inventory and gain operational scale. We believe our management team’s geologic and engineering expertise, particularly in the Permian Basin, provides a competitive advantage in the identification of acquisition targets and evaluation of resource potential. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-12, L7702:
+
+> We continuously monitor changes in market conditions and will continue to adapt our operational plans as necessary to strive to maintain sufficient liquidity, facilitate drilling on our undeveloped acreage position and permit us to selectively expand our acreage, as well as meet our debt obligations and restrictive covenants. We have been exploring, and continue to explore, strategic transactions to address these concerns, while also looking at opportunities to significantly reduce expenses in the near term. However, there can be no assurance that, absent additional capital, reducing costs or other material favorable developments, the Company will not experience liquidity and covenant compliance issues in the future. [S68]
 
 ## Financial performance
 
@@ -1198,6 +1272,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-01, L101:
+
+> Effective September 30, 2026, Battalion Oil Corporation (the “Company”) increased the size of the board of directors of the Company (the “Board”) from four directors to five directors and appointed John “Brad” Juneau (“Mr. Juneau”) to fill the vacancy created thereby, to serve until his successor is duly elected and qualified or until his earlier resignation, removal, death, or incapacity. Mr. Juneau has not been appointed to serve on any committee of the Board at this time. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1210,6 +1288,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L367:
+
+> This Quarterly Report on Form 10-Q for the quarter ended June 30, 2026 (the “Quarterly Report”) contains forward-looking statements within the meaning of the federal securities laws. All statements, other than statements of historical facts, may be forward-looking statements, should be evaluated as such and may concern, among other things, planned capital expenditures, potential increases in oil and natural gas production, potential costs to be incurred, future cash flows and borrowings, our financial position, business strategy and other plans and objectives for future operations. These forward-looking statements may be identified by their use of terms and phrases such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “explore,” “forecast,” ”intend,” “may,” “objective,” “plan,” “potential,” “predict,” “seek,” “should,” “will,” “would” and similar terms and phrases. Although we believe that the expectations reflected in forward-looking statements are reasonable, they do involve certain assumptions, risks and uncertainties. Actual results could differ materially from those anticipated in these forward-looking statements. Readers should consider carefully the risks described under the “Risk Factors” section of our previously filed Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (the “Annual Report”) and as supplemented in the “Risk … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1219,25 +1301,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1301,6 +1383,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-02 | 424B3 | 0001104659-26-038751 | — | [S64] |
 | 2026-04-01 | EFFECT | 9999999995-26-001049 | — | [S65] |
 | 2026-04-01 | SCHEDULE 13G | 0001193125-26-138025 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-12, L401:
+
+> All forward-looking statements are expressly qualified in their entirety by the cautionary statements in this paragraph and elsewhere in this document. Any forward-looking statements speak only as of this Quarterly Report. Other than as required under the securities laws, we do not assume a duty to update these forward-looking statements, whether as a result of new information, subsequent events or circumstances, changes in expectations or otherwise. [S68]
 
 ## Sources and change log
 
@@ -1435,5 +1521,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [EFFECT 9999999995-26-001049](https://www.sec.gov/Archives/edgar/data/1282648/999999999526001049/9999999995-26-001049-index.html) — published 2026-04-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [SCHEDULE 13G 0001193125-26-138025](https://www.sec.gov/Archives/edgar/data/1282648/000119312526138025/0001193125-26-138025-index.html) — published 2026-04-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001104659-26-112594](https://www.sec.gov/Archives/edgar/data/1282648/000110465926112594/batl-20260930x8k.htm) — published 2026-10-01; retrieved 2026-11-19T21:14:19.285287+00:00.
+
+[S68] [10-Q 0001104659-26-094946](https://www.sec.gov/Archives/edgar/data/1282648/000110465926094946/batl-20260630x10q.htm) — published 2026-08-12; retrieved 2026-11-19T21:14:17.291322+00:00.
+
+[S69] [DEF 14A 0001104659-26-053021](https://www.sec.gov/Archives/edgar/data/1282648/000110465926053021/batl-20260611xdef14a.htm) — published 2026-04-30; retrieved 2026-11-19T21:14:15.397145+00:00.
+
+[S70] [10-K 0001104659-26-033373](https://www.sec.gov/Archives/edgar/data/1282648/000110465926033373/batl-20251231x10k.htm) — published 2026-03-23; retrieved 2026-11-19T21:14:12.343716+00:00.
+
+[S71] [8-K/A 0001104659-21-054560](https://www.sec.gov/Archives/edgar/data/1282648/000110465921054560/tm2113727d2_8ka.htm) — published 2021-04-23; retrieved 2026-11-19T21:14:09.810628+00:00.
+
+[S72] [8-K/A 0001104659-19-055299](https://www.sec.gov/Archives/edgar/data/1282648/000110465919055299/a19-20690_18ka.htm) — published 2019-10-21; retrieved 2026-11-19T21:14:08.050773+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

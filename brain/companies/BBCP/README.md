@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -491,6 +491,30 @@ sources:
   published_at: '2024-09-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1703956/000143774926029609/bbpp20260624_8k.htm
+  title: 8-K 0001437749-26-029609
+  published_at: '2026-09-03'
+  retrieved_at: '2026-11-19T21:14:59.724681+00:00'
+  sha256: 0c55871c355f47d14c97aa52afa00f7993faf5ea17b9f86463788d6e5c9725a0
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1703956/000143774926029623/bbpp20260731_10q.htm
+  title: 10-Q 0001437749-26-029623
+  published_at: '2026-09-03'
+  retrieved_at: '2026-11-19T21:15:01.679362+00:00'
+  sha256: 6fd8f6884ddaa2b28bf2f37c6613b994ab2c01b2fbba52ecb10510906594ea58
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1703956/000143774926005632/bbpp20260120_def14a.htm
+  title: DEF 14A 0001437749-26-005632
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-19T21:14:58.027183+00:00'
+  sha256: 39e222271a9bbac44c04fff4141705a39afca5a0a03205e284e1a33cdaae2b7a
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1703956/000143774926001203/bbpp20251031_10k.htm
+  title: 10-K 0001437749-26-001203
+  published_at: '2026-01-13'
+  retrieved_at: '2026-11-19T21:14:56.127133+00:00'
+  sha256: 32af068a9a099376a60ef50955f180fc030ba34295c8e702ce953f8c1e799f82
 issuer_classification:
   cik: 0001703956
   classification_status: reported_sic
@@ -528,13 +552,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1703956/000143774926029609/0001437749-26-029609-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 9854266b0ba448f8a474f5c2dcde40ed0ebc55247d981d73d7d2080ae962a879
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -558,17 +592,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-09-03, L2001:
+
+> Certain statements in this Quarterly Report on Form 10-Q ("Report") constitute "forward-looking statements" within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements include, among other things, statements regarding our business, financial condition, results of operations, cash flows, strategies and prospects. These forward-looking statements may be identified by terminology such as "likely," "may," "will," "should," "expects," "plans," "anticipates," "believes," "estimates," "predicts," "potential," "continue" or the negative of such terms and other comparable terminology. Although we believe that the expectations reflected in the forward-looking statements contained in this Report are reasonable, we cannot guarantee future results. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-09-03, L859:
+
+> ASU 2023-07, Improvements to Reportable Segment Disclosures ("ASU 2023-07") - In November 2023, the FASB issued Accounting Standards Update No. 2023-07, "Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures" ("ASU 2023-07"), which is intended to improve reportable segment disclosure requirements, primarily through enhanced disclosures about significant segment expenses. The Company adopted this standard for our fiscal year 2025 annual financial statements and interim financial statements thereafter and have applied this standard retrospectively for all prior periods presented in the financial statements. See Note 17 for further information. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-09-03, L3025:
+
+> Cash generated from operating activities typically reflects net income, as adjusted for non-cash expense items such as depreciation, amortization and stock-based compensation, and changes in our operating assets and liabilities. Generally, we believe our business requires a relatively low level of working capital investment due to low inventory requirements and timely customer payments due to daily billings for most of our services. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-09-03, L2039:
+
+> \| disruptions, uncertainties or volatility in the credit markets that may limit our, our suppliers’ and our customers’ access to capital; [S70]
 
 ## Industry and value chain
 
@@ -576,9 +626,17 @@ SEC-reported SIC **1700**: Construction - Special Trade Contractors. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-09-03, L2039:
+
+> \| disruptions, uncertainties or volatility in the credit markets that may limit our, our suppliers’ and our customers’ access to capital; [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-09-03, L2015:
+
+> \| the cyclical nature of, and changes in, the real estate and construction markets, including pricing changes by our competitors; [S70]
 
 ## Moat and differentiation
 
@@ -587,6 +645,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-02-25, L377:
+
+> Our Board of Directors does not have a policy regarding separation of the roles of Chief Executive Officer and Chair of the Board of Directors. The Board of Directors believes it is in our best interests to make that determination based on circumstances from time to time. Currently, neither our Chair (Howard D. Morgan) nor our Vice Chair (Brian Hodges) of the Board is an officer of the Company. The Chair of the Board of Directors chairs the meetings of our Board of Directors and meetings of our stockholders, with input from the Vice Chair and the Chief Executive Officer. The Chair and Vice Chair work with the Chief Executive Officer to develop and gain approval from the Board of Directors of the growth strategy of the Company and works with the Chief Executive Officer and Chief Financial Officer in coordinating our activities with key external stakeholders and parties. These activities include corporate governance matters, investor relations, financing and mergers and acquisitions. Our Board of Directors believes that this structure, combined with our corporate governance policies and processes, creates an appropriate balance between strong and consistent leadership and independent oversight of our business. [S71]
 
 ## Financial performance
 
@@ -1201,6 +1263,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-03, L71:
+
+> The Company also announced in the Press Release that its Board of Directors has approved the initiation of a regular quarterly cash dividend program and declared an initial quarterly cash dividend of $0.13 per share of common stock. The initial dividend is payable on October 2, 2026, to stockholders of record at the close of business on September 18, 2026. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1213,6 +1279,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-09-03, L3967:
+
+> There have been no material changes to the Risk Factors previously disclosed in our Annual Report. For a detailed discussion of the risks that affect our business, please refer to the section entitled "Risk Factors" in the Annual Report. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1222,25 +1292,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1304,6 +1374,10 @@ Latest 50 filing metadata records of 373 retained records. A filing link is evid
 | 2025-01-08 | 8-K | 0001437749-25-000753 | — | [S66] |
 | 2024-09-09 | 8-K | 0001437749-24-028708 | — | [S67] |
 | 2024-09-04 | 10-Q | 0001437749-24-028422 | — | [S68] |
+
+Source excerpt — DEF 14A, filed 2026-02-25, L766:
+
+> The Audit Committee has sole authority to engage and determine the compensation of our independent registered public accounting firm. The Audit Committee also is directly responsible for evaluating the performance of our independent registered public accounting firm, reviewing and evaluating the lead partner of the independent registered public accounting firm and overseeing the work of the independent registered public accounting firm. The Audit Committee annually pre-approves services to be provided by the independent auditor, and also considers and is required to pre-approve the engagement of the independent auditor for the provision of other services during the year. For each proposed service, the independent registered public accounting firm is required to provide detailed supporting documentation at the time of approval to permit the Audit Committee to make a determination as to whether the provision of such services would impair the independent registered public accounting firm’s independence, and whether the fees for the services are appropriate. [S71]
 
 ## Sources and change log
 
@@ -1442,5 +1516,13 @@ Latest 50 filing metadata records of 373 retained records. A filing link is evid
 [S67] [8-K 0001437749-24-028708](https://www.sec.gov/Archives/edgar/data/1703956/000143774924028708/0001437749-24-028708-index.html) — published 2024-09-09; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S68] [10-Q 0001437749-24-028422](https://www.sec.gov/Archives/edgar/data/1703956/000143774924028422/0001437749-24-028422-index.html) — published 2024-09-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S69] [8-K 0001437749-26-029609](https://www.sec.gov/Archives/edgar/data/1703956/000143774926029609/bbpp20260624_8k.htm) — published 2026-09-03; retrieved 2026-11-19T21:14:59.724681+00:00.
+
+[S70] [10-Q 0001437749-26-029623](https://www.sec.gov/Archives/edgar/data/1703956/000143774926029623/bbpp20260731_10q.htm) — published 2026-09-03; retrieved 2026-11-19T21:15:01.679362+00:00.
+
+[S71] [DEF 14A 0001437749-26-005632](https://www.sec.gov/Archives/edgar/data/1703956/000143774926005632/bbpp20260120_def14a.htm) — published 2026-02-25; retrieved 2026-11-19T21:14:58.027183+00:00.
+
+[S72] [10-K 0001437749-26-001203](https://www.sec.gov/Archives/edgar/data/1703956/000143774926001203/bbpp20251031_10k.htm) — published 2026-01-13; retrieved 2026-11-19T21:14:56.127133+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

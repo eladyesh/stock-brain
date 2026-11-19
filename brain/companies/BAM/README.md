@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -433,6 +433,30 @@ sources:
   published_at: '2025-12-22'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/1937926/000117184326006587/f8k_101226.htm
+  title: 8-K 0001171843-26-006587
+  published_at: '2026-10-13'
+  retrieved_at: '2026-11-19T21:12:31.760821+00:00'
+  sha256: cefdff317b141deb1469bb641d23f728c8c3ee03f8d8a63587ad3205f056ef9c
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/1937926/000162828026054933/bam-20260630.htm
+  title: 10-Q 0001628280-26-054933
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-19T21:12:29.745986+00:00'
+  sha256: cd9c7cd032352ffa45dce7b7b0d6fd41002473059410fa69e963d476922efcdc
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/1937926/000162828026013098/bam-20251231.htm
+  title: 10-K 0001628280-26-013098
+  published_at: '2026-03-02'
+  retrieved_at: '2026-11-19T21:12:27.631846+00:00'
+  sha256: 04f301d46a4122383e51e3b456ae06765e489f1f3838f45eac28062d9228c4ba
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/1937926/000193792625000014/bam-20250204.htm
+  title: 8-K/A 0001937926-25-000014
+  published_at: '2025-04-04'
+  retrieved_at: '2026-11-19T21:12:25.811628+00:00'
+  sha256: bc0ab9b7650aa98d77cd552cc1592c62e076d7b34491c6d142ac92c3e3f53f2a
 issuer_classification:
   cik: 0001937926
   classification_status: reported_sic
@@ -470,13 +494,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1937926/000193792625000014/0001937926-25-000014-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0652f3faa4dc60395977a81b2b39294ebfea3725dd499e697ffea4880c3eceb8
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -500,13 +534,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L1560:
+
+> We operate in jurisdictions with differing tax laws and tax regulations. Certain jurisdictions in which we operate have proposed draft legislation, which if not enacted in their current form, may result in a change to our effective income tax rate. [S61]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-K, filed 2026-03-02, L697:
+
+> Some of our managed assets have customer contracts as well as concession agreements in place with public and private sector clients. Our managed assets with customer contracts could be adversely affected by any material change in the assets, financial condition or results of operations of such customers. Protecting the quality of our revenue streams through the inclusion of take-or-pay or guaranteed minimum volume provisions into our contracts is not always possible or fully effective. [S62]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-10, L1787:
+
+> We provide a highly diversified suite of alternative investment strategies to our clients and are constantly seeking to innovate new strategies to meet their needs. We have 59 unique active strategies that span a wide range of risk-adjusted returns, including opportunistic, value-add, core, super-core, and credit. We evaluate the performance of these product offerings and our investment strategies using a number of non-GAAP measures, including Fee-Bearing Capital, Fee Revenues, Fee-Related Earnings and Distributable Earnings. [S61]
 
 ## Customers and end markets
 
@@ -518,17 +564,33 @@ SEC-reported SIC **6282**: Investment Advice. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-02, L309:
+
+> As at December 31, 2025, we had Fee-Bearing Capital of $603 billion, of which 87% is long-dated or perpetual in nature, providing significant stability to our earnings profile. We consider Fee-Bearing Capital that is long-dated or perpetual in nature to be Fee-Bearing Capital relating to our long-term private funds, which are typically committed for at least 10 years with two one-year extension options, and Fee-Bearing Capital relating to our perpetual strategies, which include our permanent capital vehicles as well as capital we manage in our perpetual private funds and private wealth strategies. We seek to increase our Fee-Bearing Capital by growing the size of our existing product offerings and developing new strategies that cater to our clients’ investment needs. We also aim to deepen and develop new institutional relationships, and access new distribution channels, such as high net worth individuals and private wealth investors. [S62]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-02, L491:
+
+> BAM competes with many other firms in every aspect of our business, including fundraising, investment opportunities and hiring and retaining professionals. In our view, competition for fund investors is based primarily on investment performance, willingness to invest, investor perception of the investment manager, the investment manager’s reputation, duration of relationships, quality of services, pricing, fund terms including fees, and the relative attractiveness of our present or future investments. We believe that competition for investment opportunities is based primarily on the pricing, terms and structure (including financing conditions) of a proposed investment and certainty of execution. [S62]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-02, L322:
+
+> The unique intelligence we generate from the ongoing interconnectivity between our over $1 trillion of Assets Under Management, our global partnerships and our visibility into global capital flows helps us identify themes and trends in investing, spot pockets of value and source attractive investment opportunities as BAM continues to be the partner of choice for investors. This competitive advantage has allowed us to build leading positions in asset classes that are most in favor among clients and deliver strong investment returns to our clients across multiple business cycles. [S62]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L150:
+
+> This report contains forward-looking statements within the meaning of the Securities Act of 1933, as amended (the “Securities Act”), the Securities Exchange Act of 1934, as amended (the “Exchange Act”), the “safe harbor” provisions of the United States Private Securities Litigation Reform Act of 1995 and forward-looking information within the meaning of other relevant securities legislation, including applicable securities laws in Canada, which reflect our current views with respect to, among other things, our operations and financial performance (collectively, “forward-looking statements”). Forward-looking statements include statements that are predictive in nature, depend upon or refer to future results, events or conditions, and include, but are not limited to, statements which reflect management’s current estimates, beliefs and assumptions regarding the operations, business, financial condition, expected financial results, performance, prospects, opportunities, priorities, targets, goals, ongoing objectives, strategies, capital management and outlook of Brookfield Asset Management Ltd. (“BAM”) and its subsidiaries, as well as the outlook for North American and international economies for the current fiscal year and subsequent periods, and which are in turn based on our experience and perception of historical trends, current conditions and expected future developments, as … [S61]
 
 ## Financial performance
 
@@ -825,6 +887,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L595:
+
+> The Company has various outstanding special tracking preferred shares of certain subsidiaries of the Company (“Tracking Shares”) which provide BN with a redemption right, upon a liquidation or redemption event, to receive a preferred amount equal to the fair value of carried interest entitlement from certain tracked assets, net of any compensation related costs. The carried interest entitlement is determined based on the hypothetical liquidation at book value method of valuation (“HLBV”) being applied to each such mature fund at each reporting date, which calculates the accrued carried interest that would be due to the Company pursuant to fund agreements as if the fair value of the underlying investments were realized as of such date, irrespective of whether such amounts have been realized. These returns are realized through the payment of cumulative dividends, as and when declared by the board of directors of the relevant BAM subsidiaries. The Tracking Shares are entitled to vote, together with the common shares owned indirectly by the Company, in respect of those subsidiaries and are presented as preferred shares redeemable non-controlling interest within the condensed consolidated balance sheets, outside of permanent equity. [S61]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -837,6 +903,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L151:
+
+> We believe these factors include those described in the section entitled “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025 (our “Annual Report”). These factors should be read in conjunction with the other cautionary statements that are included in this report and in our other filings with the U.S. Securities and Exchange Commission (the “SEC”). We do not undertake any obligation to publicly update or revise any forward-looking statement, whether as a result of new information, future developments or otherwise, except as required by law. [S61]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -846,25 +916,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -928,6 +998,10 @@ Latest 50 filing metadata records of 224 retained records. A filing link is evid
 | 2026-01-08 | 8-K | 0001171843-26-000130 | — | [S57] |
 | 2026-01-06 | 4 | 0001193125-26-003651 | — | [S58] |
 | 2025-12-22 | UPLOAD | 0000000000-25-011754 | — | [S59] |
+
+Source excerpt — 10-Q, filed 2026-08-10, L687:
+
+> The provision for income taxes represents income taxes paid or payable for the current year plus the change in deferred taxes during the year. Deferred taxes result from differences between the financial and tax basis of the Company's assets and liabilities and are adjusted for changes in tax rates and tax laws when such changes are enacted. Valuation allowances are recorded to reduce deferred tax assets when it is more likely than not that a tax benefit will not be realized. [S61]
 
 ## Sources and change log
 
@@ -1048,5 +1122,13 @@ Latest 50 filing metadata records of 224 retained records. A filing link is evid
 [S58] [4 0001193125-26-003651](https://www.sec.gov/Archives/edgar/data/1937926/000119312526003651/0001193125-26-003651-index.html) — published 2026-01-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S59] [UPLOAD 0000000000-25-011754](https://www.sec.gov/Archives/edgar/data/1937926/000000000025011754/0000000000-25-011754-index.html) — published 2025-12-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S60] [8-K 0001171843-26-006587](https://www.sec.gov/Archives/edgar/data/1937926/000117184326006587/f8k_101226.htm) — published 2026-10-13; retrieved 2026-11-19T21:12:31.760821+00:00.
+
+[S61] [10-Q 0001628280-26-054933](https://www.sec.gov/Archives/edgar/data/1937926/000162828026054933/bam-20260630.htm) — published 2026-08-10; retrieved 2026-11-19T21:12:29.745986+00:00.
+
+[S62] [10-K 0001628280-26-013098](https://www.sec.gov/Archives/edgar/data/1937926/000162828026013098/bam-20251231.htm) — published 2026-03-02; retrieved 2026-11-19T21:12:27.631846+00:00.
+
+[S63] [8-K/A 0001937926-25-000014](https://www.sec.gov/Archives/edgar/data/1937926/000193792625000014/bam-20250204.htm) — published 2025-04-04; retrieved 2026-11-19T21:12:25.811628+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

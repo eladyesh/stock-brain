@@ -13,7 +13,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -470,6 +470,36 @@ sources:
   published_at: '2026-02-23'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/12927/000162828026059427/ba-20260824.htm
+  title: 8-K 0001628280-26-059427
+  published_at: '2026-08-28'
+  retrieved_at: '2026-11-19T21:11:05.162470+00:00'
+  sha256: 7030213c7e9ddbbf0d2769ad7957fa66f404d844da63d12259388b75aa1a33dd
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/12927/000162828026050038/ba-20260630.htm
+  title: 10-Q 0001628280-26-050038
+  published_at: '2026-07-28'
+  retrieved_at: '2026-11-19T21:11:03.238234+00:00'
+  sha256: cbc68dfdb48f5687926ef1935e960f7968a37836ecb986bb31342b879a1d921c
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/12927/000119312526096787/d39411ddef14a.htm
+  title: DEF 14A 0001193125-26-096787
+  published_at: '2026-03-06'
+  retrieved_at: '2026-11-19T21:11:01.072519+00:00'
+  sha256: b4df19223e83a62fa81fec02a6c5091e278d60214947d15857ffbc5cab0aa812
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm
+  title: 10-K 0001628280-26-004357
+  published_at: '2026-01-30'
+  retrieved_at: '2026-11-19T21:10:59.133768+00:00'
+  sha256: 4ce5860d376ea0e1fea4b1bf641a67b78cdfc5c621a39e7315dfac7f408fb2f3
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/12927/000119312523240597/d332056d8ka.htm
+  title: 8-K/A 0001193125-23-240597
+  published_at: '2023-09-22'
+  retrieved_at: '2026-11-19T21:10:57.461499+00:00'
+  sha256: 375812445c1b463ec06be7bceee7ab23bae3d5e60bcbb2d0c1d176894244aa91
 issuer_classification:
   cik: 0000012927
   classification_status: reported_sic
@@ -514,13 +544,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/12927/000119312523240597/0001193125-23-240597-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 04c1ce68a422864f8959feb1e4b7e3a531ab271b0c49331859896955596c8817
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -545,17 +586,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-28, L815:
+
+> We are subject to examination in U.S. federal, state and international jurisdictions in which we operate. While U.S. federal income tax audits have been settled for all years prior to 2021, tax years 2010-2024 remain subject to audit in numerous jurisdictions. We believe appropriate provisions for all outstanding tax issues have been made for all jurisdictions and all open years. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-28, L1290:
+
+> We operate in three reportable segments: BCA, BDS, and BGS. All other activities fall within Unallocated items, eliminations and other. See page 7 for the Summary of Business Segment Data, which is an integral part of this note. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-28, L1694:
+
+> Human Capital Some of our and our suppliers' workforces are represented by labor unions. Work stoppages and instability in our and our suppliers' union relationships have in the past and could in the future disrupt and/or delay the production, delivery and/or development of our products and services, which could strain relationships with customers and result in lower revenues, earnings and cash flows. If we are unable to successfully negotiate successor agreements with our unions that our employees will ratify, we may experience additional work stoppages in the future and/or higher than anticipated costs, which could materially adversely affect our business, financial position, results of operations and cash flows. We have two contracts with the Society of Professional Engineering Employees in Aerospace expiring October 6, 2026, and we are currently in negotiations working toward reaching new agreements in the third quarter of 2026. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-28, L1389:
+
+> Our total backlog includes contracts that we and our customers are committed to perform. The value in backlog represents the estimated transaction prices on performance obligations to our customers for which work remains to be performed. Backlog is converted into revenue, primarily based on the cost incurred or at delivery and acceptance of products, depending on the applicable revenue recognition model. [S68]
 
 ## Industry and value chain
 
@@ -563,17 +620,33 @@ SEC-reported SIC **3721**: Aircraft. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-28, L979:
+
+> The Company has supply chain financing programs in place under which participating suppliers may elect to obtain payment from an intermediary. The Company confirms the validity of invoices from participating suppliers and agrees to pay the intermediary an amount based on invoice totals. The majority of amounts payable under these programs are due within 30 to 90 days. At June 30, 2026, and December 31, 2025, [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-07-28, L992:
+
+> In the third quarter of 2018, we were awarded the MQ-25 EMD contract by the U.S. Navy. The contract is a fixed-price contract that now includes development and delivery of seven aircraft and test articles at a contract price of $890. In connection with winning the competition, we recognized a reach-forward loss of $291 in the third quarter of 2018. We have recognized additional losses in subsequent periods. During the three months ended June 30, 2026, MQ-25 completed its first flight and the U.S. Navy approved [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-28, L1285:
+
+> We are subject, from time to time, to various legal proceedings and claims related to our business that cover a wide range of matters, including those related to products, contracts, labor and employment, securities, antitrust and trade regulations, intellectual property, and other matters. In addition, we are subject to various government inquiries and investigations from which civil, criminal or administrative proceedings could result or have resulted in the past. Such proceedings involve or could involve claims by the U.S. or foreign governments for fines, penalties, compensatory and treble damages, restitution and/or forfeitures. Under U.S. government regulations, a company, or one or more of its operating divisions or subdivisions, can be suspended or debarred from government contracts, have certain of its production certificates suspended or revoked, or lose its export privileges, based on the results of investigations. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-06, L63:
+
+> In 2025, execution of our strategy positioned Boeing for long-term value creation and produced clear results, including: [S69]
 
 ## Financial performance
 
@@ -1191,6 +1264,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-28, L1721:
+
+> Our total backlog represents the estimated transaction prices on unsatisfied and partially satisfied performance obligations to our customers where we believe it is probable that we will collect the consideration due and where no contingencies remain before we and the customer are required to perform. Backlog does not include prospective orders where customer-controlled contingencies remain, such as the customer receiving approval from its board of directors, shareholders or government or completing financing arrangements. All such contingencies must be satisfied or have expired prior to recording a new firm order even if satisfying such conditions is highly probable. Backlog excludes options and customer financing orders as well as orders where customers have the unilateral right to terminate. A number of our customers may have contractual remedies, including rights to reject individual airplane deliveries if the actual delivery date is significantly later than the contractual delivery date. We address customer claims and requests for other contractual relief as they arise. The value of orders in backlog is [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1203,6 +1280,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-28, L1694:
+
+> Human Capital Some of our and our suppliers' workforces are represented by labor unions. Work stoppages and instability in our and our suppliers' union relationships have in the past and could in the future disrupt and/or delay the production, delivery and/or development of our products and services, which could strain relationships with customers and result in lower revenues, earnings and cash flows. If we are unable to successfully negotiate successor agreements with our unions that our employees will ratify, we may experience additional work stoppages in the future and/or higher than anticipated costs, which could materially adversely affect our business, financial position, results of operations and cash flows. We have two contracts with the Society of Professional Engineering Employees in Aerospace expiring October 6, 2026, and we are currently in negotiations working toward reaching new agreements in the third quarter of 2026. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1212,25 +1293,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1294,6 +1375,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-02-26 | 4 | 0001225208-26-002709 | — | [S64] |
 | 2026-02-24 | 144 | 0001959173-26-001440 | — | [S65] |
 | 2026-02-23 | 4 | 0001225208-26-002433 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-03-06, L5919:
+
+> At our 2025 Annual Meeting—our first meeting following the election of Kelly Ortberg as CEO in 2024—you gave us a strong vote of confidence when you approved with 85% support the compensation of our named executive officers. Since then, under Kelly and his revamped leadership team, Boeing has made significant strides in stabilizing our operations and regaining the trust of our stakeholders. The foundation of this progress is the executive team’s relentless pursuit of a company culture built on safety and quality, trust, people focus, ownership and innovation. During the year, the company implemented a new performance management system built on our new Values and Behaviors, emphasizing the importance of how employees do their jobs as well as what they accomplish, launched enhanced training and leadership development programs, and deployed regular employee surveys to ensure our workforce is being heard at the highest levels of the company. This work has borne fruit, in the form of our highest commercial deliveries since 2018, record backlog for our products and services, and beginning to earn back the trust of our regulators and customers. You, our shareholders, have shared in the company’s success with total shareholder return at the 72nd percentile of the S&P 500 Index from Kelly’s election through the end of January 2026. [S69]
 
 ## Sources and change log
 
@@ -1428,5 +1513,15 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [144 0001959173-26-001440](https://www.sec.gov/Archives/edgar/data/12927/000195917326001440/0001959173-26-001440-index.html) — published 2026-02-24; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001225208-26-002433](https://www.sec.gov/Archives/edgar/data/12927/000122520826002433/0001225208-26-002433-index.html) — published 2026-02-23; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001628280-26-059427](https://www.sec.gov/Archives/edgar/data/12927/000162828026059427/ba-20260824.htm) — published 2026-08-28; retrieved 2026-11-19T21:11:05.162470+00:00.
+
+[S68] [10-Q 0001628280-26-050038](https://www.sec.gov/Archives/edgar/data/12927/000162828026050038/ba-20260630.htm) — published 2026-07-28; retrieved 2026-11-19T21:11:03.238234+00:00.
+
+[S69] [DEF 14A 0001193125-26-096787](https://www.sec.gov/Archives/edgar/data/12927/000119312526096787/d39411ddef14a.htm) — published 2026-03-06; retrieved 2026-11-19T21:11:01.072519+00:00.
+
+[S70] [10-K 0001628280-26-004357](https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm) — published 2026-01-30; retrieved 2026-11-19T21:10:59.133768+00:00.
+
+[S71] [8-K/A 0001193125-23-240597](https://www.sec.gov/Archives/edgar/data/12927/000119312523240597/d332056d8ka.htm) — published 2023-09-22; retrieved 2026-11-19T21:10:57.461499+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

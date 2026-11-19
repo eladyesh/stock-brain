@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -469,6 +469,24 @@ sources:
   published_at: '2026-01-05'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/902791/000114420415064318/v424440_8ka.htm
+  title: 8-K/A 0001144204-15-064318
+  published_at: '2015-11-12'
+  retrieved_at: '2026-11-19T21:16:20.598323+00:00'
+  sha256: 910ac4b231a872be1d158f0e3682b9be686188c3db54d19e17aa17ace42d206d
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/902791/000114420411017983/v216497_8ka.htm
+  title: 8-K/A 0001144204-11-017983
+  published_at: '2011-03-29'
+  retrieved_at: '2026-11-19T21:16:18.752066+00:00'
+  sha256: 1bb67dbfdbb449c4c7bfae7c9495d9f938d161bfde5f533df5c88d62c620199e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/902791/000089291711000015/bbsi8k110127.htm
+  title: 8-K/A 0000892917-11-000015
+  published_at: '2011-01-27'
+  retrieved_at: '2026-11-19T21:16:17.068590+00:00'
+  sha256: c8b2c05537ff07d906d1c5909b8be8086ff6d763680472cee55cec26cb237b11
 issuer_classification:
   cik: 0000902791
   classification_status: reported_sic
@@ -530,13 +548,15 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/902791/000089291711000015/0000892917-11-000015-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: a353ee1fc398b3088c4972bd1a3c73af38e40f3322d8d1d1bb6ab13eee57095c
-  last_attempt_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-20T21:08:42.711300+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - management-and-governance
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -1212,6 +1232,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2015-11-12, L55; prior source set, update pending:
+
+> of the Board of Directors of Barrett Business Services, Inc. (the “Company”), received written notice from its independent [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1224,6 +1248,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K/A, filed 2015-11-12, L94; prior source set, update pending:
+
+> and uncertainties. Additional considerations and other important risk factors affecting the Company's business are described in [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1233,7 +1261,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -1245,10 +1273,10 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -1449,5 +1477,11 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [8-K 0001193125-26-071531](https://www.sec.gov/Archives/edgar/data/902791/000119312526071531/0001193125-26-071531-index.html) — published 2026-02-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001824435-26-000001](https://www.sec.gov/Archives/edgar/data/902791/000182443526000001/0001824435-26-000001-index.html) — published 2026-01-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K/A 0001144204-15-064318](https://www.sec.gov/Archives/edgar/data/902791/000114420415064318/v424440_8ka.htm) — published 2015-11-12; retrieved 2026-11-19T21:16:20.598323+00:00.
+
+[S68] [8-K/A 0001144204-11-017983](https://www.sec.gov/Archives/edgar/data/902791/000114420411017983/v216497_8ka.htm) — published 2011-03-29; retrieved 2026-11-19T21:16:18.752066+00:00.
+
+[S69] [8-K/A 0000892917-11-000015](https://www.sec.gov/Archives/edgar/data/902791/000089291711000015/bbsi8k110127.htm) — published 2011-01-27; retrieved 2026-11-19T21:16:17.068590+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
