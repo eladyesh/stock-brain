@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -139,6 +139,12 @@ sources:
   published_at: '2026-10-05'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/1869105/000119312526344661/bbot-20260630.htm
+  title: 10-Q 0001193125-26-344661
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-19T21:16:12.215120+00:00'
+  sha256: 095ae1c02b2750509b3da83c5568fea2f37b6df49afaa76b67037620647c4988
 issuer_classification:
   cik: 0001869105
   classification_status: reported_sic
@@ -176,13 +182,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1869105/000119312526385225/0001193125-26-385225-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e2dac69dbd9be820907a2ab70328205d2d39c99bf3c11010611b355b90ee7a85
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -197,15 +213,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001869105.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BBOT/README.md
-full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
+full_history_url: https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BBOT/README.md
+full_history_commit: 0f49b319f95dcee8e757e592a38a028a04a7bc3c
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BBOT — BridgeBio Oncology Therapeutics, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BBOT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BBOT/README.md)
 
 ## Business overview
 
@@ -219,13 +235,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-11, L3283:
+
+> The Company operates as an emerging growth company (“EGC”), as defined in the Jumpstart Our Business Startups Act of 2012 (the “JOBS Act”). Under the JOBS Act, EGCs can delay adopting new or revised accounting standards as of effective dates for private companies. The Company historically operated as part of BridgeBio Pharma and adopted new accounting pronouncements using the same timeline as BridgeBio Pharma. The Company has elected to use this extended transition period for complying with new or revised accounting standards that have different effective dates for public and private companies until the earlier of the date that it (i) is no longer an EGC or (ii) affirmatively and irrevocably opts out of the extended transition period provided in the JOBS Act. As a result, these condensed consolidated financial statements may not be comparable to companies that comply with the new or revised accounting pronouncements as of the effective dates for public companies. [S63]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-11, L3077:
+
+> The Company operates in one operating and reportable segment within the United States, developing oncology therapies through various related development projects. All of the Company’s assets are located in the United States. The single operating segment conclusion is further supported by the Company’s organizational and management structure and other factors. The Company’s chief operating decision-maker is its Chief Executive Officer, who manages operations, allocates resources, and evaluates financial performance using a top-down approach and by setting and reviewing company-wide targets. Subsequent to the completion of the de-SPAC Transaction, during the third fiscal quarter of 2025, the Company changed the segment information regularly provided to the chief operating decision maker to the below aggregated grouping of expense categories, which is the basis on which the chief operating decision-maker assesses segment performance and allocates resources. The prior period information has been recast to reflect this update. The chief operating decision-maker reviews research and development expenses by the following significant categories presented in the table below (in thousands): [S63]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-11, L6609:
+
+> are more widely reimbursed or are less expensive than any products that we may develop. Physicians may be more willing to prescribe competitors’ products for various reasons, and may rely on guidelines related to treatment of patients issued by medical societies, industry groups or other organizations, which may not include, and may never include, our products. Our competitors also may obtain marketing approval from the FDA, EMA or other comparable foreign regulatory authorities for their products more rapidly than we may obtain approval for our product candidates, which could result in competitors establishing a strong market position before we are able to enter the market, or make our development and marketing more complicated. Even if the product candidates we develop achieve marketing approval, they may be priced at a significant premium over competitive products if any have been approved by then, resulting in reduced competitiveness. Technological advances or products developed by our competitors may render our technologies or product candidates obsolete, less competitive or not economical. If we are unable to compete effectively, our opportunity to generate revenue from the sale of products we may develop, if approved, could be adversely affected. [S63]
 
 ## Customers and end markets
 
@@ -237,19 +265,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L5210:
+
+> biotech spaces, bank failures, geopolitical factors, including the ongoing conflicts between Russia and Ukraine and in the Middle East and the responses thereto, and supply chain disruptions. [S63]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-11, L6310:
+
+> We face substantial competition which may result in others discovering, developing or commercializing products before or more successfully than we do. [S63]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-11, L2946:
+
+> The Company expects to incur additional losses and negative cash flows for the foreseeable future as it continues its research and development efforts, advances its product candidates through preclinical and clinical development, enhances its approach and programs, expands its product pipeline, seeks regulatory approval, prepares for commercialization, hires additional personnel, protects its intellectual property, operates as a public company, and grows its business. The Company will need to raise additional capital to support its continuing operations and pursue its long-term business plan, including the development and commercialization of its product candidates if approved. Financing activities may include, but are not limited to, public or private equity offerings, debt financings, potential collaborations, licensing agreements, or other sources. Such activities are subject to significant risks and uncertainties. [S63]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-11, L5190:
+
+> As a result of the above factors, we expect to need substantial additional funding to support our continued operations and growth strategy. Until such a time as we can generate significant revenue from our product sales, if ever, we expect to finance our operations through the sale of equity, debt financings, or other capital sources, including collaborations with other companies or other strategic transactions. We may not be able to raise additional funds or enter into such other agreements on favorable terms or at all. If we fail to raise capital or enter into such agreements as and when needed, we may have to significantly delay, scale back, or discontinue the development and commercialization of one or more of our programs. [S63]
 
 ## Financial performance
 
@@ -347,6 +391,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L3244:
+
+> Fair Value of Common Stock — Prior to the de-SPAC Transaction, the fair value of the Company’s common stock was determined by the board of directors (“Board”) with input from management and consideration of third-party valuation reports. In the absence of a public trading market, and as a clinical-stage company with no significant revenues, the Company believes that it was appropriate to consider a range of factors to determine the fair market value of the common stock at each grant date. In addition, the Company considered various objective and subjective factors, along with input from the independent third-party valuation firm. The factors included (1) the achievement of the development milestones by the Company; (2) the significant risks associated with the Company’s stage of development; (3) capital market conditions for comparable, privately held, early-stage life science companies; (4) the Company’s available liquidity, financial condition, and results of operations; (5) the sales of the Company’s shares to third parties, such as the Series B financing; and (6) the preferential rights of the redeemable convertible preferred stockholders. Following the de-SPAC Transaction, the Company became a public entity and derives fair value of its common stock from quoted prices on the Nasdaq. [S63]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -359,6 +407,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-11, L2946:
+
+> The Company expects to incur additional losses and negative cash flows for the foreseeable future as it continues its research and development efforts, advances its product candidates through preclinical and clinical development, enhances its approach and programs, expands its product pipeline, seeks regulatory approval, prepares for commercialization, hires additional personnel, protects its intellectual property, operates as a public company, and grows its business. The Company will need to raise additional capital to support its continuing operations and pursue its long-term business plan, including the development and commercialization of its product candidates if approved. Financing activities may include, but are not limited to, public or private equity offerings, debt financings, potential collaborations, licensing agreements, or other sources. Such activities are subject to significant risks and uncertainties. [S63]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -368,25 +420,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -430,6 +482,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S16] [4 0001193125-26-414123](https://www.sec.gov/Archives/edgar/data/1869105/000119312526414123/0001193125-26-414123-index.html) — published 2026-10-05; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BBOT/README.md).
+[S63] [10-Q 0001193125-26-344661](https://www.sec.gov/Archives/edgar/data/1869105/000119312526344661/bbot-20260630.htm) — published 2026-08-11; retrieved 2026-11-19T21:16:12.215120+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BBOT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

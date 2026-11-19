@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -86,6 +86,12 @@ sources:
   published_at: '2026-07-27'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1001290/000100129026000008/bap-20251231.htm
+  title: 20-F 0001001290-26-000008
+  published_at: '2026-04-27'
+  retrieved_at: '2026-11-19T21:13:46.710960+00:00'
+  sha256: 50c60e31b68820657b24dfcf312a6e10e4ae9cef651678a39fbe6a94268c7a1f
 issuer_classification:
   cik: 0001001290
   classification_status: reported_sic
@@ -153,13 +159,24 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1001290/000114036123010117/0001140361-23-010117-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6f99624feca2b180f8b55f4c59cc0b1c3e0fcd8d33b70060d7afad8906697710
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -174,15 +191,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001001290.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BAP/README.md
-full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
+full_history_url: https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BAP/README.md
+full_history_commit: 0f49b319f95dcee8e757e592a38a028a04a7bc3c
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BAP — CREDICORP LTD
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BAP/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BAP/README.md)
 
 ## Business overview
 
@@ -196,17 +213,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-04-27, L853:
+
+> We operate primarily through our four lines of business (LoBs): Universal Banking, Microfinance, Insurance & Pensions, and Investment Management & Advisory. Additionally, we complement the operations of our LoBs through our innovation portfolio which is managed by the Innovation Committee at a corporate level. For more information about our innovation portfolio and strategy, please review “ITEM 4. INFORMATION ON THE COMPANY – 4.B Business Overview – (1) Credicorp Overview – Our Innovation Strategy”. [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-04-27, L1459:
+
+> During 2022, we implemented our corporate innovation system at Credicorp Ltd. level. This system is focused on disruptive initiatives; that is, those that (i) are aimed at achieving new revenue streams through new business models, (ii) may compete with our own traditional businesses, and (iii) may require building new and critical capabilities, either operational, digital, or technological. The system is steered by the Chief Innovation Officer (CINO), with the support of the Innovation Management Office (IMO). The CINO and the IMO oversee (i) the definition of an innovation strategy at a corporate level, (ii) the management of the disruptive initiative portfolio, (iii) the development of the necessary innovation enablers; and (iv) the execution of activities and transversal projects to foster and improve innovation efforts. We periodically review potential disruptive initiatives so that we can manage them within funds, financial limits, and metrics structured as a portfolio. The CINO steers this process, which is performed alongside the Finance Department and validated by the Innovation Committee. [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-04-27, L1153:
+
+> We also face increasing competition from non-banking and digital bank competitors in markets for some of our products and services. These non-banking competitors, including fintech and startup companies and other technology companies, have emerged in recent years with increasing digitalization, and these competitors may adversely affect our results of operations. Some of these competitors operate under different or reduced levels of regulation in comparison to the regular banking supervision that applies to BCP Stand-alone and Mibanco. Therefore, these non-banking competitors are not subject to the same specific solvency or liquidity requirements as banks. [S54]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-04-27, L1189:
+
+> The Group benefits from short-term funding sources, including primarily demand deposits, securities lending and time deposits. The Group's ability to generate deposits depends on its reputation, customer service and competitive pricing. Our access to deposits may also be adversely affected by the liquidity needs of our depositors, which may increase in an inflationary environment where they may be compelled to withdraw deposits in order to cover rising expenses. As a part of our liquidity management, we must ensure we can respond effectively to potential volatility in our customers’ deposit balances. [S54]
 
 ## Industry and value chain
 
@@ -214,19 +247,35 @@ SEC-reported SIC **6029**: Commercial Banks, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-04-27, L952:
+
+> Between December 2022, when Boluarte took office, and the first months of 2023, social unrest increased, mainly in southern regions of Peru which represent around 15% of Peru’s GDP, where Castillo had more support. Protesters demanded the release of former President Castillo and the holding of new general elections. Protests were violent and resulted in supply chain disruptions due to road blockages, and some regional airports suspended operations temporarily as infrastructure was damaged. Additionally, some mining operations were also disrupted as they faced road blockages and supply shortages. Furthermore, the protest negatively affected the tourism, hospitality, transportation, construction, and retail sectors. [S54]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 20-F, filed 2026-04-27, L763:
+
+> Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual del Peru or National Institute for the Defense of Competition and the Protection of Intellectual Property of Peru [S54]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-04-27, L763:
+
+> Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual del Peru or National Institute for the Defense of Competition and the Protection of Intellectual Property of Peru [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-04-27, L1186:
+
+> Our ability to borrow on a secured or unsecured basis, and the cost of doing so, can be affected by increases in interest rates or credit spreads, a downturn in the geographic markets in which our loans are concentrated, the availability of credit, regulatory requirements relating to liquidity or the market perceptions of risk relating to us, certain of our counterparties or the banking sector or the financial services sector as a whole, including our perceived or actual creditworthiness, as well as other factors that may be outside our control. An inability to obtain financing in the unsecured long-term or short-term debt capital markets, or to access the secured lending markets, could have a substantial adverse effect on our liquidity. In challenging credit markets, our funding costs may increase, or we may be unable to raise funds to support or expand our businesses, adversely affecting our results of operations. [S54]
 
 ## Financial performance
 
@@ -240,6 +289,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-04-27, L84:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). o [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -251,6 +304,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-04-27, L892:
+
+> See “ITEM 3. KEY INFORMATION - 3.D Risk Factors” and “ITEM 5. OPERATING AND FINANCIAL REVIEW AND PROSPECTS” for additional information and other such factors. [S54]
 
 ## Scenarios and open questions
 
@@ -264,25 +321,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -318,6 +375,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [SCHEDULE 13G 0002012383-26-002139](https://www.sec.gov/Archives/edgar/data/1001290/000201238326002139/0002012383-26-002139-index.html) — published 2026-07-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BAP/README.md).
+[S54] [20-F 0001001290-26-000008](https://www.sec.gov/Archives/edgar/data/1001290/000100129026000008/bap-20251231.htm) — published 2026-04-27; retrieved 2026-11-19T21:13:46.710960+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BAP/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

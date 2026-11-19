@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -114,6 +114,12 @@ sources:
   published_at: '2026-09-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1432364/000162828026023423/azul-20251231.htm
+  title: 20-F 0001628280-26-023423
+  published_at: '2026-04-03'
+  retrieved_at: '2026-11-19T21:10:20.639358+00:00'
+  sha256: 71f9ba83dcd7aaa31b2a658e24318b8c0351ed25abc836ccdc5e73ad5a5d5127
 issuer_classification:
   cik: '0001432364'
   classification_status: reported_sic
@@ -169,13 +175,24 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1432364/000129281421003413/0001292814-21-003413-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 268094f96a3f752bc09e3181300438e9a3c9a898c40a0a725d6d74a6a2259543
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -190,15 +207,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001432364.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AZUL/README.md
-full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
+full_history_url: https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/AZUL/README.md
+full_history_commit: 0f49b319f95dcee8e757e592a38a028a04a7bc3c
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AZUL — AZUL SA
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AZUL/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/AZUL/README.md)
 
 ## Business overview
 
@@ -212,17 +229,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-04-03, L426:
+
+> In this annual report, the discussion of our business includes the business of Azul S.A. and its direct and indirect subsidiaries. Unless otherwise indicated or the context otherwise requires, “Azul” “we,” “us,” “our” or the “Company” refer to Azul S.A. and its consolidated subsidiaries. The term “Brazil” refers to the Federative Republic of Brazil and the phrase “Brazilian government” refers to the federal government of Brazil. “Central Bank” refers to the Brazilian Central Bank (Banco Central do Brasil). References in the annual report to “real,” “reais” or “R$” refer to the Brazilian real, the official currency of Brazil and references to “U.S. dollar,” “U.S. dollars” or “US$” refer to U.S. dollars, the official currency of the United States of America. [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-04-03, L958:
+
+> In recent periods, the Brazilian real has experienced significant depreciation against the U.S. dollar, accompanied by pronounced volatility in both magnitude and speed. This rapid depreciation may have an adverse effect on us, as the pace of these developments leaves limited time to adjust our fares and other revenue streams to offset rising costs. [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-04-03, L921:
+
+> Economic, health, political, and environmental crises, or any other type of crisis that could impact the Brazilian economy, may affect the purchasing power of the Brazilian population, which may result in a decrease in sales of our products and services. Between 2014 and 2016, for example, when Brazil faced one of the worst recessions in its history, the country's GDP declined by 3.5% in 2015 and 3.3% in 2016. However, for the year ended December 31, 2025, due to the sustainable competitive advantages of our business model, Azul achieved a record operating revenue of R$21.6 billion, representing an increase of 10.8% compared to the year ended December 31, 2024. This clearly demonstrates the strength of our business model. [S54]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-04-03, L1175:
+
+> Our business operations depend on automated systems, including our sales system, automated seat reservation system, fleet and network management system, telecommunications system, and website. Significant or repeated breakdowns of our automated systems may impede our passengers and travel agencies from accessing our products and services, potentially causing them to purchase tickets from other airlines, adversely affecting our net revenues. Our website and ticket sales system must handle a high volume of traffic and deliver important flight information. The increase in work-from-home arrangements since the onset of the COVID-19 pandemic has heightened cybersecurity risks. Substantial or repeated website, ticket sales, scheduling or telecommunication systems failures (including misconfigurations, bugs, and other vulnerabilities in software and hardware that support our operations) could reduce the attractiveness of our services and could cause our customers to purchase tickets from other airlines. Any disruption in these systems or their underlying infrastructure could result in data loss, increased costs, and overall harm to our business. [S54]
 
 ## Industry and value chain
 
@@ -230,19 +263,35 @@ SEC-reported SIC **4512**: Air Transportation, Scheduled. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-04-03, L775:
+
+> •inflation, appreciation, depreciation and devaluation of the Brazilian real, as well as interest rates and exchange rates in Brazil and the other markets in which we operate, which have been particularly volatile as a result of, among other factors, monetary stimulus in response to the COVID-19 pandemic, supply chain disruptions, natural disasters (such as the significant floods experienced in the state of Rio Grande do Sul in April and May 2024) and geopolitical tensions (such as tensions as a result of the Russia-Ukraine conflict, rising tensions between the United States and Venezuela, the United States and Cuba, and among the United States, Israel and Iran); [S54]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 20-F, filed 2026-04-03, L560:
+
+> •“main competitors” refers to Gol and LATAM, our competitors in the Brazilian market that have a market share larger than ours and publicly disclose their results of operations from time to time. When used in the singular, the term “main competitor” refers to Gol, our only direct competitor for which stand-alone information is publicly available. [S54]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-04-03, L1159:
+
+> As a result of the competitive environment in which we operate, there may be further consolidation in the Brazilian, regional and global airline industry, whether by means of acquisitions, joint ventures, partnerships or strategic alliances. We cannot predict the effects of further consolidation on the industry. Our competitors could increase their scale, diversity and financial strength and may have a competitive advantage over us, which would adversely affect us. Any consolidation within the airline industry and changes in international alliances may affect the competitive landscape in the industry, which could lead to the formation of new airlines and alliances with increased financial resources, more extensive global networks and reduced cost structures than us. [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-04-03, L801:
+
+> •our ability to successfully implement our growth strategy, including our expected fleet growth, passenger growth, our capital expenditure plans, our future joint venture and partnership plans, our ability to enter new airports (including certain international airports), that match our operating criteria; [S54]
 
 ## Financial performance
 
@@ -256,6 +305,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-04-03, L71:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -267,6 +320,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-04-03, L631:
+
+> An investment in our common shares or ADSs is subject to a number of risks, including risks relating to our business and the Brazilian civil aviation industry, risk relating to the Voluntary Reorganization, risks relating to Brazil and risks relating to our common shares, including in the form of ADSs. The following list summarizes some, but not all, of these risks. Please read the information in the section entitled “Risk Factors” for a more thorough description of these and other risks. [S54]
 
 ## Scenarios and open questions
 
@@ -280,25 +337,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -334,6 +391,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [6-K 0001292814-26-004748](https://www.sec.gov/Archives/edgar/data/1432364/000129281426004748/0001292814-26-004748-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AZUL/README.md).
+[S54] [20-F 0001628280-26-023423](https://www.sec.gov/Archives/edgar/data/1432364/000162828026023423/azul-20251231.htm) — published 2026-04-03; retrieved 2026-11-19T21:10:20.639358+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/AZUL/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

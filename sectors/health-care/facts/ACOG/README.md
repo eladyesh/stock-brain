@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -245,15 +245,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001655923.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/ACOG/README.md
-full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
+full_history_url: https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/ACOG/README.md
+full_history_commit: 0f49b319f95dcee8e757e592a38a028a04a7bc3c
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ACOG — Alpha Cognition Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/ACOG/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/ACOG/README.md)
 
 ## Business overview
 
@@ -538,6 +538,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S66] [10-K 0001213900-26-037614](https://www.sec.gov/Archives/edgar/data/1655923/000121390026037614/ea0280314-10k_alphacog.htm) — published 2026-03-31; retrieved 2026-11-03T20:03:36.278222+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/ACOG/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/ACOG/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

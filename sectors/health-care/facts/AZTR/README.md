@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -148,6 +148,24 @@ sources:
   published_at: '2026-02-27'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1701478/000170147826000037/aztr-20260630.htm
+  title: 10-Q 0001701478-26-000037
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-19T21:10:00.209120+00:00'
+  sha256: f0397dde81771970835214368a7d6565a0b2ab18edc49f49a78db6e6e90fb668
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1701478/000149315226021980/formdef14a.htm
+  title: DEF 14A 0001493152-26-021980
+  published_at: '2026-05-08'
+  retrieved_at: '2026-11-19T21:09:57.338094+00:00'
+  sha256: a62bf4ae61d72336470cdd584533edf808f93cbe7c88438ee326a5651b5d71de
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1701478/000170147826000013/aztr-20251231.htm
+  title: 10-K 0001701478-26-000013
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-19T21:09:55.169820+00:00'
+  sha256: 56cbdc92a0aa26e007dd97ac5f2be45fd3be9080135a9bc03e5d66a5d9af6fec
 issuer_classification:
   cik: 0001701478
   classification_status: reported_sic
@@ -185,13 +203,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1701478/000149315226048103/0001493152-26-048103-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b3c9ab47a581b9a6fe981b00e889269e27dee9f5af06f988b06251206ab07a10
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -206,15 +235,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001701478.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AZTR/README.md
-full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
+full_history_url: https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/AZTR/README.md
+full_history_commit: 0f49b319f95dcee8e757e592a38a028a04a7bc3c
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AZTR — Azitra, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AZTR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/AZTR/README.md)
 
 ## Business overview
 
@@ -228,17 +257,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L4079:
+
+> The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our unaudited condensed financial statements and the related notes thereto contained elsewhere in this report. The information contained in this quarterly report on Form 10-Q is not a complete description of our business or the risks associated with an investment in our common stock. We urge you to carefully review and consider the various disclosures made by us in this report and in our other filings with the Securities and Exchange Commission, or SEC, including our Form 10-K for the year ended December 31, 2025, filed with the SEC on February 27, 2026. [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-12, L4066:
+
+> The Company operates and manages its business as a single reportable segment, which is to discover and develop novel therapeutics to create a new paradigm for treating skin diseases. The Chief Executive Officer, who is the Chief Operating Decision Maker ("CODM"), manages and evaluates the Company's performance on a total Company basis of net loss and assessing how to allocate [S66]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-05-08, L1811:
+
+> likely that we will have to delay, reduce or eliminate significant portions of our development and other efforts relating to our products, [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-27, L816:
+
+> We may also be subject, directly or indirectly through our customers and partners, to various fraud and abuse laws, including, without limitation, the U.S. Anti-Kickback Statute, U.S. False Claims Act, and similar state laws, which impact, among other things, our proposed sales, marketing, and scientific/educational grant programs. If we participate in the U.S. Medicaid Drug Rebate Program, the Federal Supply Schedule of the U.S. Department of Veterans Affairs, or other government drug programs, we will be subject to complex laws and regulations regarding reporting and payment obligations. All of these activities are also potentially subject to U.S. federal and state consumer protection and unfair competition laws. Similar requirements exist in many of these areas in other countries. [S68]
 
 ## Industry and value chain
 
@@ -246,19 +291,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L4820:
+
+> We currently rely on foreign third-party manufacturers and service providers in connection with certain aspects of our clinical operations. The U.S. government and persons involved in the Trump administration have made statements and taken certain actions that have led to, and may continue to lead to, changes to U.S. and international trade policies. In April 2025, the U.S. government commenced collecting a 10% tariff on imports from many countries, with higher levies on goods from larger trading partners. Since that time, the scope, rates and application of announced tariffs have been modified on multiple occasions, and further changes may occur. If maintained, tariffs and the potential escalation of trade disputes with foreign countries could pose a risk to our business and could result in higher operating expenses. The extent and duration of any tariffs and the resulting impact on general economic conditions and on our business are uncertain and depend on various factors, such as negotiations between the United States and other countries, the response of such countries, exemptions or exclusions that may be granted, availability and cost of alternative sources of supply of materials we purchase from companies targeted with tariffs. The foreign country hardest hit by the U.S. tariffs to date has been China; however, we do not currently import any goods or services from China. … [S66]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-27, L435:
+
+> The biopharmaceutical industry is characterized by rapidly advancing technologies, intense competition and a strong emphasis on proprietary drugs. While we believe that our knowledge, experience and scientific resources provide us with competitive advantages, we face potential competition from many different sources, including other biopharmaceutical companies, academic institutions and governmental agencies as well as public and private research institutions. Any drug candidates that we successfully develop and commercialize will compete with existing treatments and new treatments that may become available in the future. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-12, L2007:
+
+> Deferred patent costs represent legal and filing expenses incurred related to the submission of patent applications for patents pending approval. These deferred costs will be reclassed to intangible assets and begin to be amortized over their estimated useful lives upon the formal approval of the patent. If the patent is not issued, the costs associated with the patent will be expensed in the year the patent was rejected. Deferred patent costs are reviewed for impairment at each reporting period. The costs associated with any impairment are expensed in the period the deferred patent costs are determined to be impaired. In connection with its review of the first quarter financial statements, the Company recorded impairment expenses of $623,532 during the three months ended March 31, 2026 related to our pending international patent applications, which were determined to be impaired due to a significant increase in the time of such patent approvals, decreases in the granting of such approvals, and the Company's strategic focus on the domestic patents. The Company did not record any impairment expenses during the second quarter of 2026. [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-12, L4110:
+
+> We intend to create a broad portfolio of product candidates for precision dermatology through our development of genetically engineered proteins selected from our proprietary microbial library of approximately 1,500 unique bacterial strains. Additionally, Azitra’s research team is developing the SyMPL technology to improve the production of recombinant proteins, peptides and complex small molecule natural products. Our strategy is as follows: [S66]
 
 ## Financial performance
 
@@ -359,6 +420,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L2367:
+
+> The Company issued warrants to purchase 238 shares of common stock in 2018 in conjunction with convertible debt financing that have a redemption provision providing the holder the right to have the Company redeem all or any portion of the warrant (or shares it has converted into) at a purchase price equal to the fair market value of the shares as determined by the board of directors or an independent appraiser. As a result of this redemption provision, the warrants have been classified as a liability in the financial statements based on ASC 480. These warrants have an exercise price of $95.90 per share and a term of 10 years. The warrants are adjusted to their current fair value each reporting period. The fair value was $— at June 30, 2026 and December 31, 2025, respectively. [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -371,6 +436,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L1988:
+
+> The Company’s activities are subject to significant risks and uncertainties including the risk of failure to secure additional funding to properly execute the Company’s business plan. The Company is subject to risks that are common to companies in the pharmaceutical industry, including, but not limited to, development by the Company or its competitors of new technological innovations, dependence on key personnel, reliance on third party manufacturers, protection of proprietary technology, and compliance with regulatory requirements. [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -380,25 +449,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -444,6 +513,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S54] [10-K 0001701478-26-000013](https://www.sec.gov/Archives/edgar/data/1701478/000170147826000013/0001701478-26-000013-index.html) — published 2026-02-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AZTR/README.md).
+[S66] [10-Q 0001701478-26-000037](https://www.sec.gov/Archives/edgar/data/1701478/000170147826000037/aztr-20260630.htm) — published 2026-08-12; retrieved 2026-11-19T21:10:00.209120+00:00.
+
+[S67] [DEF 14A 0001493152-26-021980](https://www.sec.gov/Archives/edgar/data/1701478/000149315226021980/formdef14a.htm) — published 2026-05-08; retrieved 2026-11-19T21:09:57.338094+00:00.
+
+[S68] [10-K 0001701478-26-000013](https://www.sec.gov/Archives/edgar/data/1701478/000170147826000013/aztr-20251231.htm) — published 2026-02-27; retrieved 2026-11-19T21:09:55.169820+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/AZTR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

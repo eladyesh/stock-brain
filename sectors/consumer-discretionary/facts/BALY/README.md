@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -167,6 +167,18 @@ sources:
   published_at: '2026-04-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1747079/000174707926000084/baly-20260630.htm
+  title: 10-Q 0001747079-26-000084
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-19T21:12:21.770774+00:00'
+  sha256: 7c14774c9440aafe11299570d816fd805eb9a2b6863987f8c6fd06e11ae91621
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1747079/000174707926000019/baly-20251231.htm
+  title: 10-K 0001747079-26-000019
+  published_at: '2026-03-23'
+  retrieved_at: '2026-11-19T21:12:15.602285+00:00'
+  sha256: f189bf5a94cd77346c3251f3db3f55c6fe9b70fe3cb4223a6d858a1a9a010f7d
 issuer_classification:
   cik: 0001747079
   classification_status: reported_sic
@@ -237,13 +249,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1747079/000174707920000097/0001747079-20-000097-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 8179bda27e8cfe9c81fb4a723107ff1fbe4b60330e99a5d53b4ecfb0f64e6342
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -258,15 +281,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001747079.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BALY/README.md
-full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
+full_history_url: https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BALY/README.md
+full_history_commit: 0f49b319f95dcee8e757e592a38a028a04a7bc3c
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BALY — Bally's Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BALY/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BALY/README.md)
 
 ## Business overview
 
@@ -280,17 +303,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-14, L563:
+
+> Cash and cash equivalents includes cash balances and highly liquid investments with an original maturity of three months or less. Restricted cash includes player deposits, payment service provider deposits, and Video Lottery Terminal (“VLT”) and table games related cash payables to certain states where we operate, which are unavailable for the Company’s use. [S71]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L433:
+
+> Bally’s Corporation (the “Company” or “Bally’s”) is a global gaming, hospitality and entertainment company with casinos and resorts and online gaming (“iGaming”) businesses. The Company owns and manages the following properties within its Casinos & Resorts reportable segment: [S71]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-14, L764:
+
+> The purchase consideration has been allocated to the tangible and identifiable intangible assets acquired and liabilities assumed based upon their preliminary estimated fair values as of the acquisition date, with the excess of the purchase consideration over the aggregate net fair values recorded as goodwill, which is not deductible for tax purposes. Qualitative factors that contribute to the recognition of goodwill include an organized workforce and expected synergies from future cost savings and revenue driven by the integration of Bally’s intellectual property into Bally’s Intralot’s product offerings as well as cross selling product offerings of Bally’s Intralot and Bally’s International Interactive into existing and new markets. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1627:
+
+> We are a global gaming, hospitality, entertainment and technology company with an expanding international footprint across casino, interactive and lottery markets. We provide our customers and partners with physical and interactive entertainment and gaming experiences worldwide. Our offerings include traditional casino gaming, iGaming, online bingo, sportsbook, free-to-play games and technology driven lottery and gaming solutions. [S71]
 
 ## Industry and value chain
 
@@ -298,19 +337,35 @@ SEC-reported SIC **7011**: Hotels & Motels. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-23, L2021:
+
+> operations. Our competitors or other third parties, like third-party distribution channels, may incorporate AI into their products [S74]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1630:
+
+> We seek to continue to grow our business by focusing on expanding our integrated casino and interactive gaming platform, optimizing our capital structure, and employing disciplined growth initiatives. We believe that interactive gaming represents a significant strategic opportunity for the future growth of Bally’s and we will continue to proactively allocate resources in regions where we anticipate iGaming regulation, in addition to those markets where iGaming is already well-established. Across the globe, we engage in multiple state and private bidding processes, seeking to obtain new lottery agreements through our innovative technology and solutions. We seek to increase revenues at our casinos and resorts through enhancing the guest experience by providing popular games, restaurants, hotel accommodations, entertainment and other amenities in attractive surroundings with high-quality guest service. We believe that our recent acquisitions have expanded and diversified us from financial and market exposure perspectives, while continuing to mitigate our susceptibility to regional economic downturns, idiosyncratic regulatory changes and increases in regional competition. [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-14, L603:
+
+> As of June 30, 2026 (Successor) and December 31, 2025 (Successor), the Company held a 19.99% equity interest in an unconsolidated entity (the “Equity Investee”) accounted for under the equity method and is considered to be a related party under ASC 850. Certain intellectual property previously owned by Bally’s and used by the Equity Investee is owned by an independent trust (the “Trust”), which is considered a VIE that is consolidated by the Company based on the applicable criterion. The Trust licenses the use of such intellectual property to the Equity Investee under a commercial license arrangement, with licensing fees paid to the Trust by the Equity Investee based on its net gaming revenues. Any proceeds generated from the Trust property are distributed to the Company and are recognized as licensing revenue and included in “Non-gaming revenue” in the condensed consolidated statements of operations, as development of iGaming capabilities remains a core part of the Company’s strategy. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1814:
+
+> We are a holding company. Our ability to fund our obligations depends on existing cash on hand, cash flow from our subsidiaries and our ability to raise capital. Our primary sources of liquidity and capital resources have been cash on hand, cash flow from operations, borrowings under our Revolving Credit Facility (as defined herein) and proceeds from the issuance of debt and equity securities. We assess liquidity in terms of the ability to generate cash or obtain financing in order to fund operating, investing and debt service requirements. Our primary ongoing cash requirements include the funding of operations, capital expenditures, acquisitions and other investments in line with our business strategy and debt repayment obligations and interest payments. Our strategy has been to maintain moderate leverage and substantial capital resources in order to take advantage of opportunities, to invest in our businesses and acquire properties at what we believe to be attractive valuations. As such, we have continued to invest in our land-based casino business and build on our interactive/iGaming business. [S71]
 
 ## Financial performance
 
@@ -429,6 +484,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1327:
+
+> The Company has a Board of Directors approved capital return program under which the Company may expend a total of up to $700 million for share repurchases and payment of dividends. Future share repurchases may be effected in various ways, which could include open-market or private repurchase transactions, accelerated stock repurchase programs, tender offers or other transactions. The amount, timing and terms of any return of capital transaction will be determined based on prevailing market conditions and other factors. There is no fixed time period to complete share repurchases. As of June 30, 2026 (Successor) and December 31, 2025 (Successor), $95.5 million was available for use under the capital return program. There was no share repurchase activity under the capital return program and no cash dividends paid during all periods presented in the Company’s condensed consolidated financial statements. [S71]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -441,6 +500,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1401:
+
+> Although no assurance can be given, the Company does not believe that the final outcome of these matters, including costs to defend itself in such matters, will have a material adverse effect on the Company’s condensed consolidated financial statements. Further, no assurance can be given that the amount or scope of existing insurance coverage will be sufficient to cover losses arising from such matters. [S71]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -450,25 +513,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -514,6 +577,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S41] [10-K/A 0001747079-26-000034](https://www.sec.gov/Archives/edgar/data/1747079/000174707926000034/0001747079-26-000034-index.html) — published 2026-04-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BALY/README.md).
+[S71] [10-Q 0001747079-26-000084](https://www.sec.gov/Archives/edgar/data/1747079/000174707926000084/baly-20260630.htm) — published 2026-08-14; retrieved 2026-11-19T21:12:21.770774+00:00.
+
+[S74] [10-K 0001747079-26-000019](https://www.sec.gov/Archives/edgar/data/1747079/000174707926000019/baly-20251231.htm) — published 2026-03-23; retrieved 2026-11-19T21:12:15.602285+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BALY/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

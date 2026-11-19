@@ -13,7 +13,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -144,6 +144,24 @@ sources:
   published_at: '2026-02-26'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1958140/000110465926091124/batra-20260630x10q.htm
+  title: 10-Q 0001104659-26-091124
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-19T21:14:27.280356+00:00'
+  sha256: d81281afcf6e8fbc71151941655a8c1e36f0973222201abae966d348d07d4d0e
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1958140/000110465926039201/tm2525154-3_def14a.htm
+  title: DEF 14A 0001104659-26-039201
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-19T21:14:23.572226+00:00'
+  sha256: 90923a25ea9f4e24724fecff81c147d4f94c33fdbe2fed602fa71d642a625d8a
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1958140/000110465926020650/batra-20251231x10k.htm
+  title: 10-K 0001104659-26-020650
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-19T21:14:21.647532+00:00'
+  sha256: 2f4580e4e8a563cda8e89ba08955b92ad606acdb4e4414902d3efea7feb599a6
 issuer_classification:
   cik: 0001958140
   classification_status: reported_sic
@@ -184,13 +202,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1958140/000110465926090742/0001104659-26-090742-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: db8d8d8e689592272c0f2a32bc618e1c5cfe03cd8991f260db56082eee5fc946
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -205,15 +233,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001958140.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BATRA/README.md
-full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
+full_history_url: https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BATRA/README.md
+full_history_commit: 0f49b319f95dcee8e757e592a38a028a04a7bc3c
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BATRA, BATRK — Atlanta Braves Holdings, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BATRA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BATRA/README.md)
 
 ## Business overview
 
@@ -228,17 +256,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8108:
+
+> Certain statements in this Quarterly Report on Form 10-Q constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, including statements regarding our business, product and marketing strategies; new service offerings; the recoverability of our goodwill and other long-lived assets; our projected sources and uses of cash; and the anticipated impact of certain contingent liabilities related to legal and tax proceedings and other matters arising in the ordinary course of business. The words “believe,” “estimate,” “expect,” “anticipate,” “intend,” “plan,” “strategy,” “continue,” “seek,” “may,” “could” and similar expressions or statements regarding future periods are intended to identify forward-looking statements, although not all forward-looking statements may contain such words. Where, in any forward-looking statement, we express an expectation or belief as to future results or events, such expectation or belief is expressed in good faith and believed to have a reasonable basis, but such statements necessarily involve risks and uncertainties and there can be no assurance that the expectation or belief will result or be achieved or accomplished. Given these uncertainties, we caution you not to place undue reliance on these forward-looking statements. The following include some but not all of the factors that could cause … [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L5772:
+
+> The Company identifies its reportable segments as those operating segments that represent 10% or more of its combined annual revenue, annual Adjusted OIBDA or total assets. Additionally, the Company considers how each operating segment is managed due to the products and services offered, the technologies used, the revenue sources generated, and marketing strategies deployed when evaluating its reportable segments. As a result, the Company has identified the following as its reportable segments: [S66]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-26, L781:
+
+> Additionally, we rely on technology, such as our information systems, content distribution systems, ticketing systems, and payment processing systems, as well as technology and information systems of third-party vendors, to conduct our business. Disruptions, such as computer intrusion and phishing, theft, computer malware, ransomware or other malicious software, software vulnerabilities (including zero-day exploits), process breakdowns, potential disruptions from software updates (including due to inadequate testing of updates), denial of service attacks or other malicious activities, as well as power outages, natural or other disasters (including extreme weather), criminal and/or terrorist activities or human error, may affect the information systems and services we utilize and could result in disruption of our services and the misappropriation, misuse, alteration, theft, loss, leakage, falsification, and accidental or premature release or improper disclosure of confidential or other information, including intellectual property and personal data (of third parties or employees) contained on such systems. The techniques used to access, disable or degrade service, or to sabotage information systems change frequently and continue to become more sophisticated and targeted, and the increasing use of artificial intelligence may intensify cybersecurity risks. While we and our vendors … [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-26, L839:
+
+> A weak or uncertain economy and any recession could adversely affect demand for our products, services and events. A substantial portion of our revenue is derived from discretionary spending by individuals and corporate sponsors on tickets, including postseason games, concessions, merchandise, advertising sponsorships, suites and premium seat fees, which typically falls during times of economic instability. In addition, weak or uncertain economic conditions, including tariffs and reductions in discretionary spending, may adversely impact the demand for products and services of our Mixed-Use Development lessees which may weaken the financial condition of such lessees. As a result, such lessees may delay lease commencement, fail to make rental payments or become insolvent. See “- Negative market conditions or adverse events affecting existing or potential lessees of the Mixed-Use Development or the industries in which they operate, could have an adverse impact on our ability to attract new lessees, re-lease space, collect rent or renew leases at the Mixed-Use Development, which could adversely affect our cash flow from operations and inhibit growth” above. Accordingly, our ability to increase or maintain revenue and earnings could be adversely affected to the extent that relevant economic environments decline. Furthermore, during periods of high inflation, our operational costs … [S68]
 
 ## Industry and value chain
 
@@ -252,13 +296,25 @@ Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Proje
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8133:
+
+> \| \| ● \| the ability of the Company and its affiliates to comply with government regulations, including, without limitation, consumer protection laws and competition laws, and adverse outcomes from regulatory proceedings. [S66]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L4411:
+
+> operation and management of a Club, which among other things, require each Club to comply with limitations on the amount of debt a Club can incur, revenue sharing arrangements with the other Clubs, commercial arrangements with regard to the national broadcasting of its games and other programming and commercial arrangements relating to the use of its intellectual property. [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L2163:
+
+> Terence F. McGuirk currently serves as our Chairman of the Board, President and Chief Executive Officer (principal executive officer) and is responsible for identifying and implementing strategic initiatives as well as providing executive leadership. Our Board believes that our President and Chief Executive Officer is best suited to serve as Chairman of the Board because he is the director most familiar with the Company’s business and industry, and most capable of effectively identifying strategic priorities for the Company, leading the Board in discussions regarding our business and strategic direction, and focusing the Board on execution of strategy. Independent directors and management have different perspectives and roles in strategy development. Our independent directors bring experience, oversight and expertise from outside the Company and industry, while our President and Chief Executive Officer brings significant financial and operational experience based on his past and present senior policy making positions as a director and/or executive officer at the Company and other large public companies. Our Board believes that the combined role of Chairman of the Board and President and Chief Executive Officer promotes strategy development and execution and facilitates information flow between management and the Board. In light of the active involvement of our independent … [S67]
 
 ## Financial performance
 
@@ -371,6 +427,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L4399:
+
+> During November 2022, the board of directors of Liberty Media Corporation (“Liberty”) authorized Liberty management to pursue a plan to redeem each outstanding share of its Liberty Braves common stock in exchange for one share of the corresponding series of common stock of a newly formed entity, Atlanta Braves Holdings, Inc. (the “Split-Off”). The Split-Off was completed on July 18, 2023. Atlanta Braves Holdings, Inc. (“Atlanta Braves Holdings” or the “Company”) is comprised of the businesses, assets and liabilities of its wholly-owned subsidiary Braves Holdings, LLC (“Braves Holdings”) and corporate cash. [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -383,6 +443,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8134:
+
+> The above list of risks and uncertainties is only a summary of some of the most important factors and is not intended to be exhaustive. For additional risk factors, please see Part I, Item 1A of our Annual Report on Form 10-K for the year ended December 31, 2025 as supplemented by Part II, Item 1A of this Quarterly Report. These forward-looking statements and such risks, uncertainties and other factors speak only as of the date of this Quarterly Report, and we expressly disclaim any obligation or undertaking to disseminate any updates or revisions to any forward-looking statement contained herein, to reflect any change in our expectations with regard thereto, or any other change in events, conditions or circumstances on which any such statement is based, except to the extent required by law. [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -392,25 +456,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -456,6 +520,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S38] [10-K 0001104659-26-020650](https://www.sec.gov/Archives/edgar/data/1958140/000110465926020650/0001104659-26-020650-index.html) — published 2026-02-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BATRA/README.md).
+[S66] [10-Q 0001104659-26-091124](https://www.sec.gov/Archives/edgar/data/1958140/000110465926091124/batra-20260630x10q.htm) — published 2026-08-05; retrieved 2026-11-19T21:14:27.280356+00:00.
+
+[S67] [DEF 14A 0001104659-26-039201](https://www.sec.gov/Archives/edgar/data/1958140/000110465926039201/tm2525154-3_def14a.htm) — published 2026-04-02; retrieved 2026-11-19T21:14:23.572226+00:00.
+
+[S68] [10-K 0001104659-26-020650](https://www.sec.gov/Archives/edgar/data/1958140/000110465926020650/batra-20251231x10k.htm) — published 2026-02-26; retrieved 2026-11-19T21:14:21.647532+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BATRA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

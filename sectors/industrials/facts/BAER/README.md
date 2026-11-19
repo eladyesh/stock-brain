@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
+source_commit: 107777182f87f961989f84e51ee16bb872074fdf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -139,6 +139,24 @@ sources:
   published_at: '2026-10-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1941536/000194153626000028/baer-20260918.htm
+  title: 8-K 0001941536-26-000028
+  published_at: '2026-09-21'
+  retrieved_at: '2026-11-19T21:11:37.175118+00:00'
+  sha256: f3ac33047c74c8b057f92c62fed56c1c36cee85e870656c0de225c4ea34bfd3f
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1941536/000194153626000025/baer-20260630.htm
+  title: 10-Q 0001941536-26-000025
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-19T21:11:35.345060+00:00'
+  sha256: ab5b0186cfd074042810ce7a2b30a80f1d27a0aab304dfd5d62f75fd569590c7
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1941536/000194153626000005/baer-20251231.htm
+  title: 10-K 0001941536-26-000005
+  published_at: '2026-03-06'
+  retrieved_at: '2026-11-19T21:11:30.448690+00:00'
+  sha256: d74850a7c0ffffbf3287359428e386dd313c9dd98629f4e7bad78857a2be1a5e
 issuer_classification:
   cik: 0001941536
   classification_status: reported_sic
@@ -176,13 +194,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1941536/000194153626000028/0001941536-26-000028-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 374446ba17c491e9e043205d7fa9b884252fbcf3a9d89291222d776863226b69
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-19T21:08:42.711300+00:00'
+  last_success_at: '2026-11-19T21:08:42.711300+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -197,15 +226,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001941536.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BAER/README.md
-full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
+full_history_url: https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BAER/README.md
+full_history_commit: 0f49b319f95dcee8e757e592a38a028a04a7bc3c
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BAER — Bridger Aerospace Group Holdings, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BAER/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BAER/README.md)
 
 ## Business overview
 
@@ -219,17 +248,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4438:
+
+> Due to the nature of our business, we may become, from time to time, involved in routine litigation or subject to disputes or claims related to our business activities. In the opinion of our management, there are no pending litigation, disputes or claims against us which, if decided adversely, will have a material adverse effect on our financial condition, cash flows or results of operations. In the ordinary course of its operations, the Company will continue to vigorously enforce its legal and contractual rights to ensure that its business and operations continue on an unimpaired basis. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-06, L329:
+
+> Our high-performing aircraft, including the Super Scooper, and full-service support platforms have allowed us to enter into contracts with U.S. federal, state and local governmental entities and focus on growth while building additional services to map and analyze fire boundaries. Currently, we are engaged in short, medium and long-term contracts with multiple federal agencies such as the USFS and DOI and the state governments of many of the states most endangered by wildfires. Automatically renewing contracts with governmental entities provide stable revenue streams, allowing us to innovate in the aerial firefighting industry and diversify offerings to customers. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L5149:
+
+> Because wildfires occur at different times in different parts of the country, we operate on a year-round basis. However, historically the majority of wildfires occur in the second and third quarters, so the demand for our services has generally been higher in the second and third quarters of each fiscal year due to the timing and duration of the North American wildfire season with lower demand in the winter months. As a result, seasonality and the varying intensity of the fire season have caused, and may continue to cause, our operating results to fluctuate significantly from quarter to quarter and year to year. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L2320:
+
+> Accounts receivable consist of amounts due from our customers. The Company maintains an allowance for doubtful accounts equal to the estimated losses expected to be incurred based upon a review of the outstanding accounts receivable, historical collection information and existing economic conditions. For the three and six months ended June 30, 2026 and 2025, the Company did not record any bad debt expense as accounts receivable have historically been collected in accordance with the policy and there is no history of write-offs. [S67]
 
 ## Industry and value chain
 
@@ -237,19 +282,35 @@ SEC-reported SIC **7389**: Services-Business Services, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L5154:
+
+> Our results of operations are dependent on sufficient availability of aircraft, raw materials and supplied components provided by a limited number of suppliers. Our reliance on limited suppliers exposes us to volatility in the prices and availability of these materials which may lead to increased costs and delays in operations. [S67]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-06, L334:
+
+> We believe our ability to compete successfully depends on a number of factors, which may change in the future due to increased competition, including the price of our offerings, consumer confidence in the safety and efficacy of our offerings and consumer satisfaction for the solutions we offer. Additionally, we may compete with other aerial firefighting operators for federal and state budget dollars, and for various governmental service programs that support aerial firefighting programs. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4051:
+
+> The Credit Agreement is secured by first-priority security interests in substantially all tangible and intangible assets, including aircraft, real property, and intellectual property of the Company and subsidiary guarantors. The Credit Agreement requires annual prepayment from an Excess Cash Flow assessment, requiring prepayment of a percentage of annual excess cash flow, as defined within the Credit Agreement, with an assessment date beginning with the fiscal year ending December 31, 2026, and from certain asset sales above a specific threshold, with certain reinvestment provisions. The Credit Agreement requires the Company to pay a prepayment premium on certain voluntary or mandatory prepayments of the term loans equal to (i) 3.0% if repaid on or prior to the first anniversary of the closing date, (ii) 2.0% if repaid after the first anniversary but on or prior to the second anniversary, and (iii) 1.0% if repaid after the second anniversary but on or prior to the third anniversary. After the third anniversary, no prepayment premium applies. Typical events of default include nonpayment, covenant breach, insolvency, and cross-defaults, which may result in acceleration and obligation to pay all outstanding principal, accrued interest, and fees. [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L5141:
+
+> We have made and will continue to make significant investments in capital expenditures to build and expand our integrated response solutions. We expect that our existing cash and cash equivalents, available borrowing capacity, and cash generated from our operations will be sufficient to meet our current working capital and capital expenditure requirements for a period of at least 12 months from the date of this Quarterly Report. [S67]
 
 ## Financial performance
 
@@ -368,6 +429,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-21, L56:
+
+> On September 17, 2026, the Board of Directors of Bridger Aerospace Group Holdings, Inc. (the “Company”) appointed Rebecca Gerleman to the position of Senior Vice President, Chief Accounting Officer of the Company, effective as of September 18, 2026 (the “Effective Date”). [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -380,6 +445,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4438:
+
+> Due to the nature of our business, we may become, from time to time, involved in routine litigation or subject to disputes or claims related to our business activities. In the opinion of our management, there are no pending litigation, disputes or claims against us which, if decided adversely, will have a material adverse effect on our financial condition, cash flows or results of operations. In the ordinary course of its operations, the Company will continue to vigorously enforce its legal and contractual rights to ensure that its business and operations continue on an unimpaired basis. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -389,25 +458,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -451,6 +520,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S20] [4 0001683168-26-007593](https://www.sec.gov/Archives/edgar/data/1941536/000168316826007593/0001683168-26-007593-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/BAER/README.md).
+[S66] [8-K 0001941536-26-000028](https://www.sec.gov/Archives/edgar/data/1941536/000194153626000028/baer-20260918.htm) — published 2026-09-21; retrieved 2026-11-19T21:11:37.175118+00:00.
+
+[S67] [10-Q 0001941536-26-000025](https://www.sec.gov/Archives/edgar/data/1941536/000194153626000025/baer-20260630.htm) — published 2026-08-06; retrieved 2026-11-19T21:11:35.345060+00:00.
+
+[S69] [10-K 0001941536-26-000005](https://www.sec.gov/Archives/edgar/data/1941536/000194153626000005/baer-20251231.htm) — published 2026-03-06; retrieved 2026-11-19T21:11:30.448690+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/0f49b319f95dcee8e757e592a38a028a04a7bc3c/brain/companies/BAER/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
